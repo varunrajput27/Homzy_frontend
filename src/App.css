@@ -1,0 +1,34 @@
+/* index.css or App.css */
+
+/* 1. Cards ke beech spacing (Mandatory for react-slick) */
+.slick-slide > div {
+  padding: 0 10px; 
+}
+
+/* 2. Arrow Styling (Make them dark and adjust position) */
+.slick-prev, .slick-next {
+  z-index: 10; /* Arrows ko cards ke upar laane ke liye */
+  width: 30px;
+  height: 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #333 !important; /* Dark color */
+  font-size: 30px !important;
+  opacity: 0.8 !important;
+}
+
+.slick-prev {
+  left: -40px !important; 
+}
+
+.slick-next {
+  right: -40px !important; 
+}
+
+/* 3. Small screens par spacing theek karna */
+@media (max-width: 640px) {
+    .slick-slide > div {
+        padding: 0 5px;
+    }
+}

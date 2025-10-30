@@ -89,8 +89,8 @@ const DashboardLayouts = () => {
     { title: "Total Users", count: totalUser, icon: <Users className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-white" />, color: "bg-gradient-to-r from-indigo-500 to-purple-500" },
     { title: "Rent Properties", count: totalRentProperties, icon: <Home className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-white" />, color: "bg-gradient-to-r from-yellow-400 to-yellow-600" },
     { title: "Rent Out Properties", count: totalRentOut, icon: <Home className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-white" />, color: "bg-gradient-to-r from-green-500 to-emerald-600" },
+        { title: "Sale Properties", count: totalSaleProperties, icon: <DollarSign className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-white" />, color: "bg-gradient-to-r from-teal-500 to-cyan-600" },
     { title: "Sold Out Properties", count: totalSoldOut, icon: <DollarSign className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-white" />, color: "bg-gradient-to-r from-pink-500 to-red-500" },
-    { title: "Sale Properties", count: totalSaleProperties, icon: <DollarSign className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-white" />, color: "bg-gradient-to-r from-teal-500 to-cyan-600" },
     { title: "Book Visit Requests", count: totalBookingRequests, icon: <CalendarCheck className="w-6 sm:w-7 md:w-8 h-6 sm:h-7 md:h-8 text-white" />, color: "bg-gradient-to-r from-gray-500 to-gray-600" },
   ];
 

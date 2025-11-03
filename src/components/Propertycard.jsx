@@ -52,9 +52,9 @@ const PropertyCard = ({ property, onContactClick }) => {
     listingType.toLowerCase().includes("sold out")
       ? "bg-red-700"
       : listingType.toLowerCase().includes("for sale")
-      ? "bg-green-600"
-      : listingType.toLowerCase().includes("for rent")
       ? "bg-blue-500"
+      : listingType.toLowerCase().includes("for rent")
+      ? " bg-green-600"
       : "bg-gray-500"
   }`}
 >

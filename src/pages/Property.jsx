@@ -513,7 +513,7 @@ const Property = () => {
 
                             {/* Contact Card */}
                             <div className="bg-white p-5 sm:p-6 rounded-xl shadow-xl border border-slate-200 text-center"> {/* Reduced padding */}
-                                <h3 className="text-lg font-bold text-slate-800">Habita Agent</h3> {/* Smaller heading */}
+                                <h3 className="text-lg font-bold text-slate-800">Homzy Agent</h3> {/* Smaller heading */}
                                 <p className="text-slate-500 text-xs sm:text-sm mb-3">Contact our Agent directly</p> {/* Smaller text and margin */}
                                 <div className="space-y-3">
                                     <a href={`tel:${COMPANY_PHONE}`} className="w-full flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2.5 rounded-lg transition-colors text-sm"> {/* Reduced padding and text size */}
